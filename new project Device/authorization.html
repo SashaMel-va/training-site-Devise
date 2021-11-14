@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="uft-8" author="mel-va">
+<title>DEVISE</title>
+<link rel="stylesheet" href="style\normolize.css">
+<link rel="stylesheet" href="style\style.css">
+<link rel="stylesheet" href="style\authorization.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
+    <div class="yellow-fon conteiner"></div>
+<header class="main-header conteiner"> 
+    <div class="logo-cont">
+        <a class="main-header-logo">
+            <img src="svg\main-logo.svg" width height alt="Логотип предприятия">
+        </a> 
+            <ul class="nav-ul main-nav">
+                <li class="seahc-li" >
+                    <img src="svg\search.svg" alt="search">
+                    <a href class="search seahc-li">Поиск по сайту</a>
+                </li>
+            </ul>
+            <nav class="header-2 nav nav-header">
+                    <ul class="header-nav-ul nav-ul">
+                        <li><a class="centr-nav-li nav-li-header"href="">Каталог товаров</a></li>
+                    </ul>
+                    <a class="open-full-nav">
+                        <img class="plus-svg" src="svg\plus.svg" width height alt="Открыть полное меню">
+                    </a> 
+            </nav>
+        
+    </div>
+    <nav class="main-navigation nav">
+        <ul class="nav-ul main-nav">
+            <li class="come-li">
+                <img src="svg\user.svg" alt="user"> <!-- добавляю ссылку на новую стрицу для входа в сист-->
+                <a href="authorization.html">Войти</a>
+            </li>
+            <li class="compare-li">
+                <img src="svg\compare.svg" alt="compare">
+                <a href>Сравнить</a>
+            </li>
+            <li class="bascet-li">
+                <img src="svg\cart.svg" alt="cart">
+                <a href>Корзина</a>
+            </li>
+            
+        </ul>
+        <nav class="header-4 nav nav-header">
+            <ul class="header-nav-ul nav-ul nav-ul-gred ul-header">
+                <li><a class="centr-nav-li nav-li-header"href="">Доставка</a></li>
+                <li><a class="centr-nav-li nav-li-header"href="">Гарантия</a></li>
+                <div></div>
+                <li><a class="centr-nav-li nav-li-header" href="">Контакты</a></li>
+            </ul>
+        </nav>
+    </nav>
+</header>
+
+
+
+<main class="page-site">
     
-</body>
-</html>
+    <div class="wrapper-for-login-in">
+        <div class="label-log-in">
+            <p>Вход в личный кабинет</p>
+        </div>
+
+        <div class="l-login-password">
+            <input type="text" required id="userLogin" placeholder="Введите логин">
+            <br>
+            <input type="password" id="userPassword" required placeholder="Введите пароль">
+            <br>
+        </div>
+        
+        <input class="knopka_submit" type="submit" value="Войти">
+</main>
+   
+        
