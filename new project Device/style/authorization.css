@@ -1,0 +1,81 @@
+body {
+    background:
+      linear-gradient(
+      rgba(0, 85, 255, 0.8),
+      rgba(141, 7, 250, 0.8)),
+}
+
+.wrapper 
+{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.textonimg
+{
+background-image:url(zoompurple.jpg);
+background-repeat:no-repeat;
+text-align:center;
+width: 100%; 
+height: 545px;
+padding-top: 10%;
+}
+
+.pinkbackground
+{
+background-color: rgb(208, 158, 255);
+width: 90%;
+height: 145px;
+border: 1px solid white;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.topimg
+{
+padding-top: 10px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.whitepinkbackground
+{
+align-self: center;
+background-color: rgb(241, 174, 255);
+width: 90%;
+height: 350px;
+border: 1px solid white;
+margin-left: auto;
+margin-right: auto;
+}
+
+.knopka_submit
+{
+border: #7C4DFF;
+border-radius: 2em;
+background-color: #7C4DFF;
+height: 21px;
+width: 177px;
+color: white;
+}
+
+.pinkbackground2
+{
+align-self: center;
+background-color: rgb(208, 158, 255);
+width: 90%;
+height: 30px;
+border: 1px solid white;
+margin-left: auto;
+margin-right: auto;
+}
+
+option:checked 
+{ 
+color: #7C4DFF; 
+}
