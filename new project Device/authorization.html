@@ -12,74 +12,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
-
-<body>
-    <div class="yellow-fon conteiner"></div>
-<header class="main-header conteiner"> 
-    <div class="logo-cont">
-        <a class="main-header-logo">
-            <img src="svg\main-logo.svg" width height alt="Логотип предприятия">
-        </a> 
-            <ul class="nav-ul main-nav">
-                <li class="seahc-li" >
-                    <img src="svg\search.svg" alt="search">
-                    <a href class="search seahc-li">Поиск по сайту</a>
-                </li>
-            </ul>
-            <nav class="header-2 nav nav-header">
-                    <ul class="header-nav-ul nav-ul">
-                        <li><a class="centr-nav-li nav-li-header"href="">Каталог товаров</a></li>
-                    </ul>
-                    <a class="open-full-nav">
-                        <img class="plus-svg" src="svg\plus.svg" width height alt="Открыть полное меню">
-                    </a> 
-            </nav>
-        
-    </div>
-    <nav class="main-navigation nav">
-        <ul class="nav-ul main-nav">
-            <li class="come-li">
-                <img src="svg\user.svg" alt="user"> <!-- добавляю ссылку на новую стрицу для входа в сист-->
-                <a href="authorization.html">Войти</a>
-            </li>
-            <li class="compare-li">
-                <img src="svg\compare.svg" alt="compare">
-                <a href>Сравнить</a>
-            </li>
-            <li class="bascet-li">
-                <img src="svg\cart.svg" alt="cart">
-                <a href>Корзина</a>
-            </li>
-            
-        </ul>
-        <nav class="header-4 nav nav-header">
-            <ul class="header-nav-ul nav-ul nav-ul-gred ul-header">
-                <li><a class="centr-nav-li nav-li-header"href="">Доставка</a></li>
-                <li><a class="centr-nav-li nav-li-header"href="">Гарантия</a></li>
-                <div></div>
-                <li><a class="centr-nav-li nav-li-header" href="">Контакты</a></li>
-            </ul>
-        </nav>
-    </nav>
-</header>
-
-
-
 <main class="page-site">
-    
-    <div class="wrapper-for-login-in">
-        <div class="label-log-in">
-            <p>Вход в личный кабинет</p>
-        </div>
+    <body>
+        <div class="wrapper-for-login-in">
+            <div class="label-log-in">
+                <p>Вход в личный кабинет</p>
+            </div>
 
-        <div class="l-login-password">
-            <input type="text" required id="userLogin" placeholder="Введите логин">
-            <br>
-            <input type="password" id="userPassword" required placeholder="Введите пароль">
-            <br>
+            <div class="l-login-password">
+                <input type="text" required class="l-login-password-margin input" id="userLogin" placeholder="Введите логин">
+                <input type="password" required class="l-login-password-margin" id="userPassword" placeholder="Введите пароль" style="margin-bottom: 0px;">
+            </div>
+
+            <a href><p class="forgot-password">Забыли пароль?</p></a>
+            
+            
+            <!--<a><input class="knopka_submit"  type="submit" value="Войти"></a>
+            <a href=""><button type="submit" class="knopka_submit">Войти</button></a>
+            <p class="or">или</p>
+            <a href=""><button type="submit" class="knopka_submit">Регистрация</button></a>-->
+            <div class="knopka-flex">
+                <button class="buton-classic">
+                    <div class="button-line">
+                        <p class="text-btn">Войти</p>
+                    </div>
+                </button>
+            
+            
+                <p class="or">или</p>
+            
+            
+                <button class="buton-classic">
+                    <div class="button-line">
+                        <p class="text-btn">Регистрация</p>
+                    </div>
+                </button>
+            </div>
+
         </div>
-        
-        <input class="knopka_submit" type="submit" value="Войти">
+    </body>
 </main>
    
         

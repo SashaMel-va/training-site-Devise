@@ -1,81 +1,88 @@
-body {
-    background:
-      linear-gradient(
-      rgba(0, 85, 255, 0.8),
-      rgba(141, 7, 250, 0.8)),
-}
-
-.wrapper 
-{
-    width: 300px;
+.wrapper-for-login-in{
+    width: 400px;
+    height: 320px;
     margin: 0 auto;
+    border: 5px solid #F0C52E;/*#FAEB80*/
 }
 
-.textonimg
+.label-log-in
 {
-background-image:url(zoompurple.jpg);
-background-repeat:no-repeat;
-text-align:center;
-width: 100%; 
-height: 545px;
-padding-top: 10%;
-}
+    width: 90%;
+    height: 30px;
+    margin-bottom: 25px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
-.pinkbackground
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 3.6px;
+}
+.l-login-password
 {
-background-color: rgb(208, 158, 255);
-width: 90%;
-height: 145px;
-border: 1px solid white;
-margin-left: auto;
-margin-right: auto;
+    width: 90%;
+    padding-bottom: 5px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-
-
-
-.topimg
+.l-login-password-margin{
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    width: 98%;
+ }
+input[type="password"]{
+    width: 98%;
+}
+.forgot-password{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.knopka-flex
 {
-padding-top: 10px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+    /*margin-bottom: 10px;
+    text-align: center;
+    border: #F0C52E;
+    border-radius: 2em;
+    background-color: #F9ECAB;
+    height: 21px;
+    width: 130px;
+    color: rgba(0, 0, 0, 1);*/
+
+    /*position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);*/
+
+    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
-
-
-.whitepinkbackground
-{
-align-self: center;
-background-color: rgb(241, 174, 255);
-width: 90%;
-height: 350px;
-border: 1px solid white;
-margin-left: auto;
-margin-right: auto;
-}
-
-.knopka_submit
-{
-border: #7C4DFF;
-border-radius: 2em;
-background-color: #7C4DFF;
-height: 21px;
-width: 177px;
-color: white;
-}
-
-.pinkbackground2
-{
-align-self: center;
-background-color: rgb(208, 158, 255);
-width: 90%;
-height: 30px;
-border: 1px solid white;
-margin-left: auto;
-margin-right: auto;
-}
-
-option:checked 
-{ 
-color: #7C4DFF; 
+.or{
+    margin: 0px;
+    text-align: center;
 }
