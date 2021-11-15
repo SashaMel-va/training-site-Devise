@@ -812,8 +812,6 @@ transform: rotate(45deg);
 .slick-track{
     display: flex;
 }
-
-
 /*конкретный слайдер*/
 .slider{
     position: relative;
@@ -829,7 +827,6 @@ transform: rotate(45deg);
 .slider .slick-arrow.slick-next{
     right: 0;
 }
-
 /*точки*/
 .slider .slick-dots{
     display: flex;
@@ -855,11 +852,7 @@ transform: rotate(45deg);
 
 
 /*Авторизация*/
-.registr-header{
-    margin-top: -230px;
-}
 .wrapper-for-login-in{
-    display: fixed;
     width: 400px;
     height: 320px;
     margin: 0 auto;
@@ -916,19 +909,6 @@ input[type="password"]{
 }
 .knopka-flex
 {
-    /*margin-bottom: 10px;
-    text-align: center;
-    border: #F0C52E;
-    border-radius: 2em;
-    background-color: #F9ECAB;
-    height: 21px;
-    width: 130px;
-    color: rgba(0, 0, 0, 1);*/
-
-    /*position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);*/
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -946,11 +926,10 @@ input[type="password"]{
     text-align: center;
 }
 
-
 /*Регистрация*/
 .wrapper-for-login-up{
     width: 400px;
-    height: 800px;
+    height: 420px;
     margin: 0 auto;
     border: 5px solid #F0C52E;/*#FAEB80*/
 }
@@ -987,12 +966,9 @@ input[type="password"]{
 .l-login-password-margin{
     margin-bottom: 20px;
 }
-input[type="text"]{
+input[type="text"], [type="password"], [type="email"]{
     width: 98%;
  }
-input[type="password"]{
-    width: 98%;
-}
 .forgot-password{
     width: 90%;
     height: 30px;
@@ -1005,19 +981,6 @@ input[type="password"]{
 }
 .knopka-flex
 {
-    /*margin-bottom: 10px;
-    text-align: center;
-    border: #F0C52E;
-    border-radius: 2em;
-    background-color: #F9ECAB;
-    height: 21px;
-    width: 130px;
-    color: rgba(0, 0, 0, 1);*/
-
-    /*position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);*/
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1029,4 +992,16 @@ input[type="password"]{
     height: auto;
     margin-top: 20px;
 }
+input:valid{
+    box-shadow: none;
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px #c79c00;
+}
 
+
+/*личный кабинет**/
+.img-user{
+    width: 150px;
+    height: 150px;
+}
