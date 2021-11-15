@@ -37,15 +37,9 @@
 .l-login-password-margin{
     margin-bottom: 20px;
 }
-input[type="text"]{
+input[type="text"], [type="password"], [type="email"]{
     width: 98%;
  }
-input[type="password"]{
-    width: 98%;
-}
-input[type="email"]{
-    width: 98%;
-}
 .forgot-password{
     width: 90%;
     height: 30px;
@@ -68,4 +62,10 @@ input[type="email"]{
     width: 100%;
     height: auto;
     margin-top: 20px;
+}
+input:valid{
+    box-shadow: none;
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px #c79c00;
 }

@@ -22,9 +22,9 @@
             </div>
 
             <div class="l-login-password">
-                <input type="text" class="l-login-password-margin input" id="userFullName" placeholder="Введите ФИО" pattern="[А-Я] && [а-я] && [-] [/[a-z]/g)]" required>
-                <input type="text" class="l-login-password-margin input" id="userLogin" placeholder="Введите логин" required pattern="[A-Z] && [a-z]">
-                <input type="email" class="l-login-password-margin input" id="userEmail" placeholder="Введите email" required pattern="\S+@[a-z]+.[a-z]+">
+                <input type="text" class="l-login-password-margin input" id="userFullName" placeholder="Введите ФИО" pattern="^[а-яА-Я\s-]+$" required> <!--Кириллица, пробелы, дефис |работает-->
+                <input type="text" class="l-login-password-margin input" id="userLogin" placeholder="Введите логин" required pattern="^[a-zA-Z]+$"> <!--Латиница "|работает-->
+                <input type="email" class="l-login-password-margin input" id="userEmail" placeholder="Введите email" maxlength="64" required>
                 <input type="password" class="l-login-password-margin" id="userPassword" placeholder="Введите пароль" required>
                 <input type="password" class="l-login-password-margin" id="userPassword" placeholder="Введите пароль повторно" required>
                 <div>
